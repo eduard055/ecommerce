@@ -3,12 +3,13 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #e25656;
-  color: white;
+  background-color: #3d5a80;
+  color: #e0fbfc;
+  box-shadow: 0 4px 14px rgba(41, 50, 65, 0.18);
 }
 
 .logo a {
-  color: white;
+  color: #e0fbfc;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
@@ -16,10 +17,13 @@
 
 nav a {
   margin-left: 1rem;
-  color: white;
+  color: #e0fbfc;
   text-decoration: none;
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  background-color: #293241;
 }
