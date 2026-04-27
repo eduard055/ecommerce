@@ -7,7 +7,7 @@ export default function Home() {
     <main className="home">
       <section className="hero">
         <h1>Welcome to Valorant E-Commerce Store</h1>
-        <p>Discover amazing guns at great prices.</p>
+        <p>Discover amazing guns at cheap prices.</p>
         <Link to="/products" className="btn">Shop Now</Link>
       </section>
     </main>
